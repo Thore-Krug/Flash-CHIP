@@ -9,9 +9,7 @@ sudo apt-get -y install \
  fastboot \
  sunxi-tools \
  u-boot-tools \
- mercurial \
  cmake \
- curl \
  screen \
  unzip \
  libncurses-dev \
