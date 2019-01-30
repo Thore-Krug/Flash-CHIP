@@ -9,6 +9,10 @@ echo " enter s for the headless Server Image "
 echo " enter g for the Desktop Image "
 echo " enter b for the Buildroot Image " 
 echo " ++++++++++++++++++++++++++++++++++++++++++ "
+echo " Other options " 
+echo " ++++++++++++++++++++++++++++++++++++++++++ "
+echo " enter f for Force Clean " 
+echo " ++++++++++++++++++++++++++++++++++++++++++ "
 echo " Then press enter please " 
 
 read flavour
