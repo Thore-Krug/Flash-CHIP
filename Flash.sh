@@ -27,16 +27,9 @@ sudo apt-get -y install \
  fastboot \
  sunxi-tools \
  u-boot-tools \
- ppp \
- cu \
  adb \
  u-boot-tools \
  android-tools-fastboot \
- libusb-1.0-0-dev \
- libacl1-dev \
- zlib1g-dev \
- liblzo2-dev \
- uuid-dev
 
 echo -e "\n Adding current user to dialout group"
 sudo usermod -a -G dialout $(logname)
