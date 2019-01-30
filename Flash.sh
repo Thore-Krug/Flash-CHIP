@@ -1,5 +1,19 @@
 #!/bin/bash
 
+
+
+
+  echo "   #  #  #"
+  echo "  #########"
+  echo "###       ###"
+  echo "  # {#}   #"
+  echo "###  '\######"
+  echo "  #       #"
+  echo "###       ###"
+  echo "  ########"
+  echo "   #  #  #"
+
+
 echo " Welcome to the C.H.I.P Flasher Tool " 
 
 echo " Please enter your wanted flavour " 
