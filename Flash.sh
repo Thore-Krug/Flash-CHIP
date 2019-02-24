@@ -40,6 +40,7 @@ read flavour
 
 echo -e "\n Setting up environment"
 sudo apt-get -y update
+sudo apt-get install curl -y
 sudo apt-get install u-boot-tools -y
 sudo apt-get -y install \
  git \
