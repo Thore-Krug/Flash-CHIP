@@ -68,12 +68,12 @@ sudo udevadm control --reload-rules
 
 echo -e "\n Installing CHIP-tools"
 if [ -d CHIP-tools ]; then
-  pushd CHIP-tools
-  git pull
-  popd
+ cd CHIP-tools 
+ git pull 
+ FEL='sudo sunxi-fel' FASTBOOT='sudo fastboot' SNIB=false ./chip-update-firmware.sh -$flavour
+ elif [ !-d CHIP-tools ]; then
+ git clone https://github.com/Project-chip-crumbs/CHIP-tools.git
+ cd  CHIP-tools 
+ FEL='sudo sunxi-fel' FASTBOOT='sudo fastboot' SNIB=false ./chip-update-firmware.sh -$flavour
 fi
-git clone https://github.com/Project-chip-crumbs/CHIP-tools.git
 
-cd  CHIP-tools 
-
-FEL='sudo sunxi-fel' FASTBOOT='sudo fastboot' SNIB=false ./chip-update-firmware.sh -$flavour
