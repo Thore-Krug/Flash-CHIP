@@ -26,7 +26,7 @@ Simplyfies the Flashing Process for the C.H.I.P and PocketC.H.I.P Computer.
 
 ### The script times out waiting for fel
 This error is related to an insufficient amount of power provided by your USB port to the C.H.I.P.  
-If you have an external `3.3V` power supply that you can connect to your C.H.I.P. us it to sufficiently power the C.H.I.P.  
+If you have an external `5V` power supply, you can connect it to the `CHG-IN` pin of your C.H.I.P. to provide sufficient power.    
 Alternatively try a different (shorter, or higher quality) USB cable and check if your host PC has USB power saving enabled.  
 
 ## Support my work by Donating 
