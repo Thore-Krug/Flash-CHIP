@@ -16,13 +16,18 @@ Simplyfies the Flashing Process for the C.H.I.P and PocketC.H.I.P Computer.
     - Wait until the installation finishes.
     - Enjoy!
   
-  ## Troubleshooting 
-
+## Troubleshooting 
+### General Issues
 1. Kill the Script with ctrl + C 
 2. Read the output if something is not installed or Permissions are missing 
 3. Just restart the Script (fixes most of the Problem with FEL and Fastboot ) 
 4. If this does not help reboot, retry
 5. Open an Issue on this Git Repo. 
+
+### The script times out waiting for fel
+This error is related to an insufficient amount of power provided by your USB port to the C.H.I.P.  
+If you have an external `3.3V` power supply that you can connect to your C.H.I.P. us it to sufficiently power the C.H.I.P.  
+Alternatively try a different (shorter, or higher quality) USB cable and check if your host PC has USB power saving enabled.  
 
 ## Support my work by Donating 
 
