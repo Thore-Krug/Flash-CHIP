@@ -50,10 +50,7 @@ sudo apt -y install \
  u-boot-tools \
  curl \
  wget \
- 
-wget http://mirrors.kernel.org/ubuntu/pool/universe/s/sunxi-tools/sunxi-tools_1.4.1-1_amd64.deb
-sudo dpkg -i sunxi-tools*.deb
-sudo rm -rf sunxi-tools*.deb
+ sunxi-tools \
 
 echo -e "\n Adding current user to dialout group"
 sudo usermod -a -G dialout $(logname)
