@@ -29,7 +29,14 @@ This error is related to an insufficient amount of power provided by your USB po
 If you have an external `5V` power supply, you can connect it to the `CHG-IN` pin of your C.H.I.P. to provide sufficient power.    
 Alternatively try a different (shorter, or higher quality) USB cable and check if your host PC has USB power saving enabled.  
 
+If this dos not work Install sunxi-tool v1.4.1:
+```bash
+git clone --branch v1.4.1  https://github.com/linux-sunxi/sunxi-tools.git
+cd sunxi-tool/
+make install-all install-misc
+cd ../
+./Flash.sh
+```
 ## Support my work by Donating 
 
 https://www.paypal.me/a13tech
-
