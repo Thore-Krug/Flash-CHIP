@@ -37,6 +37,3 @@ make install-all install-misc
 cd ../
 ./Flash.sh
 ```
-## Support my work by Donating 
-
-https://www.paypal.me/a13tech
